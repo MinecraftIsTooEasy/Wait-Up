@@ -1,0 +1,33 @@
+# Keep this file in sync with assets/minecraft/lang/en_US.lang.
+# ManyLib is more reliable when the mod domain also ships these keys.
+
+message.wait_up.manylib.local_only=This in-game Wait Up config edit only changed your local file. To affect a remote server, edit the server-side config.
+
+config.menu.name.wait_up=Wait Up
+config.menu.comment.wait_up=Edit portal day locks, Nether Quartz sacrifice day locks, gem sacrifice XP, upper Underworld ore multipliers, and optional ITF Reborn compatibility. Set a day lock or distance to 0 to disable that limit.
+config.name.wait_up.underworldMinDay=Underworld Unlock Day
+config.comment.wait_up.underworldMinDay=Minimum Overworld day required to enter the Underworld. Set to 0 to disable this lock.
+config.name.wait_up.netherMinDay=Nether Unlock Day
+config.comment.wait_up.netherMinDay=Minimum Overworld day required to enter the Nether. Set to 0 to disable this lock.
+config.name.wait_up.endMinDay=End Unlock Day
+config.comment.wait_up.endMinDay=Minimum Overworld day required to enter the End. Set to 0 to disable this lock.
+config.name.wait_up.netherQuartzSacrificeMinDay=Quartz Sacrifice Unlock Day
+config.comment.wait_up.netherQuartzSacrificeMinDay=Minimum Overworld day required before Nether Quartz can be sacrificed for experience. Set to 0 to disable this lock.
+config.name.wait_up.netherQuartzSacrificeXp=Quartz Sacrifice XP
+config.comment.wait_up.netherQuartzSacrificeXp=Experience granted when sacrificing one Nether Quartz after the day lock allows it. Vanilla is 50.
+config.name.wait_up.emeraldSacrificeXp=Emerald Sacrifice XP
+config.comment.wait_up.emeraldSacrificeXp=Experience granted when sacrificing one Emerald. Vanilla is 250.
+config.name.wait_up.diamondSacrificeXp=Diamond Sacrifice XP
+config.comment.wait_up.diamondSacrificeXp=Experience granted when sacrificing one Diamond. Vanilla is 500.
+config.name.wait_up.lapisSacrificeXp=Lapis Sacrifice XP
+config.comment.wait_up.lapisSacrificeXp=Experience granted when sacrificing one Lapis Lazuli dye item. Vanilla is 25.
+config.name.wait_up.underworldHighOreMaxAbsXZ=Upper Underworld Region Radius
+config.comment.wait_up.underworldHighOreMaxAbsXZ=Only affects the Underworld when both |x| and |z| are within this value and y is above 120. Set to 0 to disable this feature.
+config.name.wait_up.underworldHighMithrilMultiplier=Upper Mithril Multiplier
+config.comment.wait_up.underworldHighMithrilMultiplier=Multiplier for mithril generation attempts in the configured high Underworld region. Enter a decimal such as 0.35. 1.0 keeps vanilla frequency.
+config.name.wait_up.underworldHighDiamondMultiplier=Upper Diamond Multiplier
+config.comment.wait_up.underworldHighDiamondMultiplier=Multiplier for diamond generation attempts in the configured high Underworld region. Enter a decimal such as 0.35. 1.0 keeps vanilla frequency.
+config.name.wait_up.itfrbCompatEnabled=ITFRB Compatibility
+config.comment.wait_up.itfrbCompatEnabled=Enable optional compatibility behavior with ITF Reborn.
+config.name.wait_up.itfrbLichCastleMinDistance=Lich Castle Protected Abs XZ
+config.comment.wait_up.itfrbLichCastleMinDistance=Legacy config id kept for compatibility. Natural Lich Castles are blocked while both |x| and |z| are within this value. Set to 0 to disable the protected central region.

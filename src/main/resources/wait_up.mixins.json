@@ -1,0 +1,22 @@
+{
+	"required": true,
+	"package": "com.github.hahahha.waitup.mixins",
+	"plugin": "com.github.hahahha.waitup.mixins.WaitUpMixinPlugin",
+	"compatibilityLevel": "JAVA_17",
+	"target": "DEFAULT",
+	"minVersion": "0.8.3",
+	"mixins": [
+		"MixinBlockEndPortal",
+		"MixinBlockPortal",
+		"MixinITFRBContainerEnchantReserver",
+		"MixinITFRBEnchantReserverInputSlot",
+		"MixinITFRBTileEntityEnchantReserver",
+		"MixinITFRBWorldGenUnderworldCastle",
+		"MixinItemRock",
+		"MixinServerConfigurationManager",
+		"MixinWorldGenMinable"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

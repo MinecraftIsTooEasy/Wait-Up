@@ -1,0 +1,10 @@
+.gradle/
+build/
+
+run/logs/
+run/crash-reports/
+run/*.log
+run/*.log.*
+run/*.lck
+run/fabricloader.log
+run/world-overworld.map.unfinished

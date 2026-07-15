@@ -1,0 +1,33 @@
+# 与 assets/wait_up/lang/zh_CN.lang 保持同步。
+# 这些键当前主要用于 ManyLib 相关的客户端文本。
+
+message.wait_up.manylib.local_only=这次在游戏内对 Wait Up 的配置修改只影响你的本地文件。若要影响远程服务器，请修改服务端配置。
+
+config.menu.name.wait_up=稍等一下
+config.menu.comment.wait_up=编辑维度传送限制、下界石英献祭限制、宝石献祭经验、地下世界矿物调整，以及可选的 ITF Reborn 兼容项。把天数、距离设为 0 可关闭对应限制。
+config.name.wait_up.underworldMinDay=地下世界解锁天数
+config.comment.wait_up.underworldMinDay=进入地下世界所需的主世界最小天数。设为 0 可关闭该限制。
+config.name.wait_up.netherMinDay=地狱解锁天数
+config.comment.wait_up.netherMinDay=进入地狱所需的主世界最小天数。设为 0 可关闭该限制。
+config.name.wait_up.endMinDay=末地解锁天数
+config.comment.wait_up.endMinDay=进入末地所需的主世界最小天数。设为 0 可关闭该限制。
+config.name.wait_up.netherQuartzSacrificeMinDay=下界石英献祭解锁天数
+config.comment.wait_up.netherQuartzSacrificeMinDay=下界石英可以被献祭为经验前所需的主世界最小天数。设为 0 可关闭该限制。
+config.name.wait_up.netherQuartzSacrificeXp=下界石英献祭经验
+config.comment.wait_up.netherQuartzSacrificeXp=下界石英在解锁后每个可提供的经验值。原版为 50。
+config.name.wait_up.emeraldSacrificeXp=绿宝石献祭经验
+config.comment.wait_up.emeraldSacrificeXp=每个绿宝石献祭后提供的经验值。原版为 250。
+config.name.wait_up.diamondSacrificeXp=钻石献祭经验
+config.comment.wait_up.diamondSacrificeXp=每个钻石献祭后提供的经验值。原版为 500。
+config.name.wait_up.lapisSacrificeXp=青金石献祭经验
+config.comment.wait_up.lapisSacrificeXp=每个青金石染料物品献祭后提供的经验值。原版为 25。
+config.name.wait_up.underworldHighOreMaxAbsXZ=地下世界上层区域半径
+config.comment.wait_up.underworldHighOreMaxAbsXZ=仅在地下世界中，且 |x| 与 |z| 同时不超过该值并且 y 大于 120 时生效。设为 0 可关闭该功能。
+config.name.wait_up.underworldHighMithrilMultiplier=上层秘银倍率
+config.comment.wait_up.underworldHighMithrilMultiplier=配置区域内地下世界上层秘银生成尝试的倍率。请直接输入 0.35 这类小数，1.0 为原版频率。
+config.name.wait_up.underworldHighDiamondMultiplier=上层钻石倍率
+config.comment.wait_up.underworldHighDiamondMultiplier=配置区域内地下世界上层钻石生成尝试的倍率。请直接输入 0.35 这类小数，1.0 为原版频率。
+config.name.wait_up.itfrbCompatEnabled=ITFRB 兼容总开关
+config.comment.wait_up.itfrbCompatEnabled=启用与 ITF Reborn 相关的可选兼容功能。
+config.name.wait_up.itfrbLichCastleMinDistance=巫妖城堡中心保护绝对值
+config.comment.wait_up.itfrbLichCastleMinDistance=保留旧配置 ID 以兼容已有配置。启用 ITF Reborn 兼容后，当 |x| 和 |z| 同时不超过该值时，地下世界自然生成的巫妖城堡会被禁止。设为 0 可关闭该中心保护区。

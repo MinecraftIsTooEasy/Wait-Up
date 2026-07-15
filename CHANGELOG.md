@@ -23,6 +23,5 @@ Initial public release.
 
 ### Notes
 
-- Gameplay rules now target dedicated servers without requiring clients to install `Wait Up`.
-- The mod metadata now declares `environment: "server"` in the same spirit as `ProgressLimiter`.
-- ManyLib compatibility remains for config handling, but client-side in-game config UI is no longer part of this server-oriented package.
+- This build is packaged for both client and server environments again.
+- Client installation is required when you want `Wait Up` to appear in the `ManyLib` config menu.

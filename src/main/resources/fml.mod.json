@@ -6,7 +6,7 @@
 		"fishmodloader": ">=3.4.2",
 		"rusted_iron_core": ">=1.5.0"
 	},
-	"environment": "server",
+	"environment": "*",
 	"name": "Wait Up",
 	"description": "Locks access to the Underworld, Nether, and End until configured Overworld days.",
 	"authors": ["hahahha"],

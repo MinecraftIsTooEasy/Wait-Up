@@ -15,17 +15,15 @@
 
 ## Installation
 
-Dedicated server installation is enough for the gameplay rules to work.
+Current packaging is a dual-environment build.
 
-Client installation is not required for multiplayer servers.
+Install `Wait Up` on both the server and the client when you want:
 
-Current packaging follows the same server-only direction used by `ProgressLimiter`:
+- the mod to appear in the client's `ManyLib` config menu
+- in-game config editing through `ManyLib`
+- the same `Wait Up` feature set loaded on both sides
 
-- `wait_up` is declared with `environment: "server"`
-- gameplay prompts are sent as plain server chat text
-- ManyLib compatibility remains on the config-handling side, but this mod no longer depends on a client-side `Wait Up` install to join the server
-
-If you want a future build focused on single-player or in-game client config UI, that should be treated as a separate packaging target.
+Gameplay prompts are still sent as plain server chat text, so the messages themselves do not depend on client localization.
 
 ## Required and Optional Dependencies
 
